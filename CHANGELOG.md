@@ -1,3 +1,10 @@
+# [1.0.0-dev.6](https://github.com/davikawasaki/semantic-release-koajs/compare/v1.0.0-dev.5...v1.0.0-dev.6) (2021-07-21)
+
+
+### Bug Fixes
+
+* manul trigger dev ([4e94063](https://github.com/davikawasaki/semantic-release-koajs/commit/4e94063e36db3cb40ab6e1977db260070d8f9a15))
+
 # [1.0.0-dev.5](https://github.com/davikawasaki/semantic-release-koajs/compare/v1.0.0-dev.4...v1.0.0-dev.5) (2021-07-21)
 
 
