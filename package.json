@@ -1,6 +1,6 @@
 {
   "name": "@davikawasaki/semantic-release-koajs",
-  "version": "1.0.0-qa.2",
+  "version": "1.0.0-qa.3",
   "description": "Semantic release project with JS.",
   "main": "lib/index.js",
   "repository": "git@github.com:davikawasaki/semantic-release-koajs.git",
