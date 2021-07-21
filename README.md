@@ -1,6 +1,9 @@
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-![Bump](https://github.com/davikawasaki/semantic-release-koajs/workflows/Bump/badge.svg)
+
+![Actions Dev](https://github.com/davikawasaki/semantic-release-koajs/workflows/Release%20Dev/badge.svg)
+![Actions QA](https://github.com/davikawasaki/semantic-release-koajs/workflows/Release%20QA/badge.svg)
+![Actions Production](https://github.com/davikawasaki/semantic-release-koajs/workflows/Release%20Prod/badge.svg)
 
 # Semantic Release Example Project
 

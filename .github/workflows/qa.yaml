@@ -1,7 +1,7 @@
 
 # This workflow will install dependencies and publish the package
 
-name: Bump QA
+name: Release QA
 
 on:
   push:
