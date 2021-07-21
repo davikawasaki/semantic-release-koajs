@@ -1,3 +1,20 @@
+# 1.0.0-qa.1 (2021-07-21)
+
+
+### Bug Fixes
+
+* merge branch 'main' into staging ([3615d33](https://github.com/davikawasaki/semantic-release-koajs/commit/3615d3349810a9d2c6f13f38f5f16c11f331f347))
+* merge branch 'main' of github.com:davikawasaki/semantic-release-koajs ([5ae728c](https://github.com/davikawasaki/semantic-release-koajs/commit/5ae728c2f25436c6957290035a1f588b666c2291))
+
+
+### Features
+
+* manual trigger staging ([4afeac4](https://github.com/davikawasaki/semantic-release-koajs/commit/4afeac44d5be062704f4a07f70ded565d51727af))
+* merge branch 'main' of github.com:davikawasaki/semantic-release-koajs ([c372545](https://github.com/davikawasaki/semantic-release-koajs/commit/c372545227e948d48f8bba24c5c3e8d03b909d91))
+* release minor after branches creation ([dbc8525](https://github.com/davikawasaki/semantic-release-koajs/commit/dbc85255cb5e7505e75d25dfdc2cf66eb83b20bd))
+* start repo with semantic release ([b05ba8f](https://github.com/davikawasaki/semantic-release-koajs/commit/b05ba8fe449120cf51ef7500c280cbef8fb2111b))
+* update actions names + change docs badges ([8b45170](https://github.com/davikawasaki/semantic-release-koajs/commit/8b451707ecb05a9758b887a4befe48ae85cec00b))
+
 # [1.0.0-dev.2](https://github.com/davikawasaki/semantic-release-koajs/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2021-07-21)
 
 
