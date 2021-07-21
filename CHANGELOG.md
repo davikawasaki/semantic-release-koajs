@@ -23,6 +23,7 @@
 
 
 # 1.0.0-qa.1 (2021-07-21)
+# 1.0.0 (2021-07-21)
 
 
 ### Bug Fixes
@@ -39,6 +40,7 @@
 * start repo with semantic release ([b05ba8f](https://github.com/davikawasaki/semantic-release-koajs/commit/b05ba8fe449120cf51ef7500c280cbef8fb2111b))
 * update actions names + change docs badges ([8b45170](https://github.com/davikawasaki/semantic-release-koajs/commit/8b451707ecb05a9758b887a4befe48ae85cec00b))
 
+<<<<<<< HEAD
 # [1.0.0-dev.3](https://github.com/davikawasaki/semantic-release-koajs/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2021-07-21)
 
 
@@ -46,6 +48,8 @@
 
 * merge branch 'main' of github.com:davikawasaki/semantic-release-koajs ([5ae728c](https://github.com/davikawasaki/semantic-release-koajs/commit/5ae728c2f25436c6957290035a1f588b666c2291))
 
+=======
+>>>>>>> c66396f5496acf0d821060015ec87d4e71bbd7a0
 # [1.0.0-dev.2](https://github.com/davikawasaki/semantic-release-koajs/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2021-07-21)
 
 
