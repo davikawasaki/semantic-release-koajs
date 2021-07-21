@@ -1,3 +1,10 @@
+# [1.0.0-dev.5](https://github.com/davikawasaki/semantic-release-koajs/compare/v1.0.0-dev.4...v1.0.0-dev.5) (2021-07-21)
+
+
+### Features
+
+* manual trigger dev ([b11af74](https://github.com/davikawasaki/semantic-release-koajs/commit/b11af74e03686ae118bf150c3ba8870830131d0f))
+
 # [1.0.0-dev.4](https://github.com/davikawasaki/semantic-release-koajs/compare/v1.0.0-dev.3...v1.0.0-dev.4) (2021-07-21)
 
 
