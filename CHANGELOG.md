@@ -1,3 +1,16 @@
+# [1.1.0](https://github.com/davikawasaki/semantic-release-koajs/compare/v1.0.0...v1.1.0) (2021-07-21)
+
+
+### Bug Fixes
+
+* change domain ([257876d](https://github.com/davikawasaki/semantic-release-koajs/commit/257876da1e2687bc247ba4cb9f0f6dbfd6a7c15c))
+* merge branch 'qa' into staging ([d4df83a](https://github.com/davikawasaki/semantic-release-koajs/commit/d4df83a4728b236a9176e3d1edd9a2d248dc298b))
+
+
+### Features
+
+* manual trigger dev ([b11af74](https://github.com/davikawasaki/semantic-release-koajs/commit/b11af74e03686ae118bf150c3ba8870830131d0f))
+
 # [1.0.0-qa.3](https://github.com/davikawasaki/semantic-release-koajs/compare/v1.0.0-qa.2...v1.0.0-qa.3) (2021-07-21)
 
 
