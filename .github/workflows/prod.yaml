@@ -30,7 +30,7 @@ jobs:
         shell: bash
         run: |
           cat <<EOF >> .npmrc
-          @letsfullstack:registry=https://npm.pkg.github.com/
+          @davikawasaki:registry=https://npm.pkg.github.com/
           //npm.pkg.github.com/:_authToken=${{ secrets.NPM_AUTH_TOKEN }}
           EOF
       - run: npm ci
