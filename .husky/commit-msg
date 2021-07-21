@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+if ! npx --no-install commitlint --edit && [ -z "${CI}" ]; then
+  exec < /dev/tty && npx cz --hook
+else
+  echo Skipping git hook: commit-msg
+fi

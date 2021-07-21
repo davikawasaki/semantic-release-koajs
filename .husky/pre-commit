@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+if [ -z "${CI}" ]; then
+  yarn format
+else
+  echo Skipping git hook: pre-commit
+fi

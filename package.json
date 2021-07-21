@@ -1,0 +1,69 @@
+{
+  "name": "@davikawasaki/semantic-release-koajs",
+  "version": "0.1.0-dev.0",
+  "description": "Semantic release project with JS.",
+  "main": "lib/index.js",
+  "repository": "git@github.com:davikawasaki/semantic-release-koajs.git",
+  "author": "Davi Kawasaki",
+  "homepage": "https://github.com/davikawasaki/semantic-release-koajs#readme",
+  "scripts": {
+    "start": "node ./lib/index.js",
+    "start:watch": "npx nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node ./src/index.ts",
+    "lint": "npx ts-standard 'src/**/*.ts'",
+    "format": "npx ts-standard --fix 'src/**/*.ts'",
+    "prepare": "if [ -z $CI ]; then echo installing husky... && husky install && chmod ug+x .husky/* && chmod ug+x .git/hooks/*; else echo skipping husky installation...; fi",
+    "prebuild": "npm run format",
+    "build": "tsc",
+    "config-build": "npm run build",
+    "prestart:watch": "npm run config-build"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.1",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-session": "^5.10.3",
+    "@types/koa__cors": "^3.0.2",
+    "@types/koa__router": "^8.0.4",
+    "@types/pino": "^6.3.8",
+    "nodemon": "^2.0.7",
+    "ts-standard": "^10.0.0",
+    "typescript": "^4.2.4",
+    "commitizen": "^4.2.4",
+    "commitlint": "^12.1.4",
+    "copyfiles": "^2.4.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^6.0.0",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.2.3",
+    "@semantic-release/npm": "^7.1.3",
+    "@semantic-release/release-notes-generator": "^9.0.3",
+    "semantic-release": "^17.4.4"
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.1.2",
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.0.0",
+    "dotenv": "^10.0.0",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa2-swagger-ui": "^5.2.0",
+    "pino": "^6.11.3",
+    "swagger-jsdoc": "^6.1.0",
+    "ts-node": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  }
+}

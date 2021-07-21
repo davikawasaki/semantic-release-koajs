@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2018",
+        "noImplicitAny": false,
+        "outDir": "lib",
+        "rootDir": "src",
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "./src/**/*",
+        "./config/**/*",
+        "node_modules/node-config-ts/global.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

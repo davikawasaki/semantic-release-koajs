@@ -1,0 +1,49 @@
+
+# This workflow will install dependencies and publish the package
+
+name: Bump Prod
+
+on:
+  push:
+    branches: [ prod ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.ref }}
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14
+          registry-url: https://npm.pkg.github.com/
+      - name: Cache NPM dependencies
+        uses: actions/cache@v2
+        with:
+          path: ./node_modules
+          key: ${{ runner.OS }}-npm-dep-cache-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-npm-dep-cache-${{ hashFiles('**/package-lock.json') }}
+            ${{ runner.OS }}-npm-dep-cache
+      - name: Create .npmrc file
+        shell: bash
+        run: |
+          cat <<EOF >> .npmrc
+          @letsfullstack:registry=https://npm.pkg.github.com/
+          //npm.pkg.github.com/:_authToken=${{ secrets.NPM_AUTH_TOKEN }}
+          EOF
+      - run: npm ci
+      - run: npm run build
+        env:
+          CI: true
+      - name: "cat package.json"
+        run: cat ./package.json
+      - name: "Create a semantic release"
+        env:
+          GH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          CI: true
+        run: npx semantic-release
+      - name: "cat package.json"
+        run: cat ./package.json
