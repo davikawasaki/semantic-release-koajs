@@ -5,7 +5,7 @@ name: Release QA
 
 on:
   push:
-    branches: [ qa ]
+    branches: [ staging ]
 
 jobs:
   deploy:
