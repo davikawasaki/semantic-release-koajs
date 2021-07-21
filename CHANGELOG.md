@@ -1,3 +1,10 @@
+# [1.0.0-dev.3](https://github.com/davikawasaki/semantic-release-koajs/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2021-07-21)
+
+
+### Bug Fixes
+
+* merge branch 'main' of github.com:davikawasaki/semantic-release-koajs ([5ae728c](https://github.com/davikawasaki/semantic-release-koajs/commit/5ae728c2f25436c6957290035a1f588b666c2291))
+
 # [1.0.0-dev.2](https://github.com/davikawasaki/semantic-release-koajs/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2021-07-21)
 
 
