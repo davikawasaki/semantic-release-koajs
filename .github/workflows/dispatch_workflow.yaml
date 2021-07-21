@@ -20,7 +20,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Checkout specific package tag release
-        run: git checkout -b deploy-${{ github.event.inputs.package }}@${{ github.event.inputs.tag }} ${{ github.event.inputs.package }}@${{ github.event.inputs.tag }}
+        run: git checkout -b deploy-${{ github.event.inputs.tag }} ${{ github.event.inputs.tag }}
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
