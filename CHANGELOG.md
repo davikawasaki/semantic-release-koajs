@@ -1,3 +1,10 @@
+# [1.0.0-dev.4](https://github.com/davikawasaki/semantic-release-koajs/compare/v1.0.0-dev.3...v1.0.0-dev.4) (2021-07-21)
+
+
+### Bug Fixes
+
+* change domain ([257876d](https://github.com/davikawasaki/semantic-release-koajs/commit/257876da1e2687bc247ba4cb9f0f6dbfd6a7c15c))
+
 # [1.0.0-dev.3](https://github.com/davikawasaki/semantic-release-koajs/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2021-07-21)
 
 
